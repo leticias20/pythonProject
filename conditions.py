@@ -1,12 +1,8 @@
-is_hot = False
-is_cold = False
+name = "John Smith"
 
-if is_hot:
-    print("It's a hot day")
-    print('Drink plenty of water')
-elif is_cold:
-    print("It's a cold day")
-    print("Wear warm clothes")
+if len(name) < 3:
+    print("Name must be at least 3 characters.")
+elif len(name) > 50:
+    print("Name must be a maximum of 50 characters")
 else:
-    print("It's a lovely day")
-print("Enjoy your day")
+    print("Name looks good")

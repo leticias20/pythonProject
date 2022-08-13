@@ -1,10 +1,5 @@
-first='John'
-last='Smith'
-msg = f'{first} [{last}] is a coder'
-print(msg)
-print(len(first))
-print(msg.upper())
-print(first.lower())
-print(msg.replace('coder','teacher'))
-print('coder' in msg)
-print('Change')
+has_criminal_record = False
+has_good_credit = True
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for loan")

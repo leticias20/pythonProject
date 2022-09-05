@@ -1,5 +1,5 @@
-has_criminal_record = False
-has_good_credit = True
-
-if has_good_credit and not has_criminal_record:
-    print("Eligible for loan")
+i= 1
+while i <= 5:
+    print('*' * i)
+    i= i +1 
+print("Done")
